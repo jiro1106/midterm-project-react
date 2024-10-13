@@ -1,0 +1,83 @@
+.addItem {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid #ccc; /* border */
+    border-radius: 8px; 
+    background:   rgba(255, 255, 255, 0.733);
+    width: 50%; 
+    max-width: 1000px; 
+    padding: 1rem; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    margin: 1rem 1rem; 
+}
+
+
+.main {
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+    
+}
+/* form section */
+.add-form {
+    width: 90%; 
+    margin: 0 auto; 
+    padding: 1rem; 
+    background:none;
+}
+
+/* h2 */
+.additem_h2 {
+    font-size: 2rem;
+    margin-bottom: 0;
+    text-align: center; 
+    background:none;
+}
+
+/* input section */
+.additem_input-group {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 1rem; 
+    background:none;
+    
+}
+
+/* input label */
+.additem_input-label {
+    font-size: 1.15rem;
+    font-weight:bold;
+    width: 100px; 
+    text-align: right;
+    background:none;
+    margin-top:-0.1rem;
+    
+}
+
+/* input box */
+.additem_input-box {
+    width: 100%; 
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    background:#f0ecec;
+}
+
+/* button */
+.additem_button {
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(160, 14, 14);
+    color: white;
+    border:none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.2rem; /* Space above the button */
+    margin-left: 7.2rem;
+}
+
+.additem_button:hover {
+    background-color: rgb(91, 26, 28);
+}
