@@ -1,0 +1,83 @@
+.sortItem {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    border: 1px solid #ccc; 
+    border-radius: 8px;
+    background:   rgba(255, 255, 255, 0.733);
+    width: 50%; 
+    max-width: 1000px; 
+    padding: 1rem; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem auto; 
+  }
+
+
+.sort-form {
+    width: 90%;
+    margin: 0 auto; 
+    padding: 1rem; 
+    background:none;
+}
+
+
+.label_and_select {
+    
+    margin-bottom:1rem;
+  }
+
+.sortitem_input-group {
+    display: flex;
+    align-items: center;    
+    margin-bottom: 1rem;
+    background: none;
+    margin-left:-3rem;
+}
+
+
+.sortitem_input-label {
+    font-size: 1.18rem;
+    font-weight: bold;
+    width: 200px; 
+    text-align: center;
+    background: none;
+    margin:5rem;
+    margin-left:0.8rem;
+}
+
+
+
+.sortitem_input-box {
+    width: 100%; 
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.2rem;
+    background:#f6f6f6;
+    margin-top:0.5rem;
+}
+
+.sortitem_button {
+    width: 8rem;
+    font-size: 1rem;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(160, 14, 14);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:0.5rem;
+    margin-left:1rem;
+}
+
+.sortitem_button:hover {
+    background-color: rgb(91, 26, 28);
+}
+
+/* table */
+.sortitem_items-display{
+    border-collapse: collapse;
+    width: 85%;
+    margin:auto;
+    margin-top:0.5rem;
+  }
